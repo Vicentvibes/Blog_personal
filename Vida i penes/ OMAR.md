@@ -1,5 +1,7 @@
 # OMAR, o per què no li tinc por a Goliat
 
+![](imatges/OMAR_imatge.jpg)
+
 Omar és el nom d'una obra per a vibràfon composta per Franco Donatoni el 1985. Sens dubte, és una de les peces més difícils per a aquest instrument, no tant per la seva complexitat tècnica—que també en té—sinó per la dificultat d'interpretar-la amb bellesa i memoritzar-la. No és una obra per a totes les oïdes; cal estar preparat per gaudir-la. Però a mi, personalment, m'encisa com sona.
 
 Per què us parlo d'Omar? Doncs perquè va ser la peça que havia d'interpretar en el meu recital final de carrera de percussió. Gràcies a ella, he perdut la por—aunque no el respecte—a l'hora d'afrontar reptes que semblen titànics. Després de dos mesos estudiant-la sense grans progressos, vaig adonar-me que necessitava dedicar-hi deu hores diàries fins que sortís. I així ho vaig fer, sense exagerar. Tornava a casa amb l'esquena i les cames destrossades de tantes hores dret. El cap ja no donava per a més, i només tenia energia per sopar, posar-me tres coixins sota les cames i dormir fins l'endemà.
