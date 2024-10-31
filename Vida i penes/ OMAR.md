@@ -1,6 +1,6 @@
 # OMAR, o per què no li tinc por a Goliat
 
-![](imatges/OMAR_imatge.jpg)
+![Vibràfon](../imatges/OMAR_imatge.jpg)
 
 Omar és el nom d'una obra per a vibràfon composta per Franco Donatoni el 1985. Sens dubte, és una de les peces més difícils per a aquest instrument, no tant per la seva complexitat tècnica—que també en té—sinó per la dificultat d'interpretar-la amb bellesa i memoritzar-la. No és una obra per a totes les oïdes; cal estar preparat per gaudir-la. Però a mi, personalment, m'encisa com sona.
 
@@ -17,3 +17,10 @@ Amb el temps, he après que, després d'apaivagar els nervis i la por, cal ser e
 Quines estratègies vaig utilitzar per mantenir la motivació durant tantes hores d'estudi diari? El plaer de saber que estava enfrontant alguna cosa realment difícil i que el projecte en si m'agradava, em va ajudar a suportar la càrrega de treball.
 
 Volia compartir aquesta reflexió perquè em conegueu millor i perquè, potser, trobeu una ajuda en aquells moments de "fight or flight". Molts projectes titànics es poden afrontar simplement des del compromís personal, i els resultats i la perfecció poden ballar. Tant se val guanyar a Goliat per KO, per punts, per esgotament o després d'un debat. La satisfacció d'haver-ho fet un mateix és màxima al final i, en el meu cas, he après que pot arribar a ser fins i tot el vehicle que et porta a la meta.
+
+
+### Interpretacions magistrals de OMAR:
+
+[Interpretació de Mathias Reumert](https://www.youtube.com/watch?v=3gH-1A9l9uQ)
+
+[Interpretació de Borja Camps](https://www.youtube.com/watch?v=ZjmgMz0rtPc)
