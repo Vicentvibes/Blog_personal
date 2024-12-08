@@ -15,6 +15,14 @@ Podem classificar de moltes maneres les contrasenyes. Una de les classificacions
 
 MFA són les sigles de Multi-Factor Authentication, en valencià: múltiples factors d'autenticació. És la pràctica de combinar almenys dos dels tipus de contrasenya que hem descrit abans per tal dobtindre accés. Aquest tipus dautenticació sha tornat molt popular ja que al combinar almenys dos contrasenyes, la seguretat daccés és molt millor i en cas de tindre alguna de les contrasenyes compromesa, els usuaris no pateixen atacs. Exemples daquesta pràctica els podem trobar en gimnasos quan passem una targeta i una emprempta dactilar per accedir, quan fem un moviment bancari i hem dutilitzar una contrasenya i un missatge que ens arriba al mòbil o quan accedim a un compte de gmail desde un aparell totalment nou i hem dintroduir contrasenya i confirmar des de un dispositius mòbil associat. Aquesta pràctica és molt recomanable i sempre que pugam deuriem activar-la. 
 
+## COM ES GUARDEN LES CONTRASENYES?
+
+Les bones practiques demmagatzematge de contrasenyes en bases de dades estableixen que mai shan de guardar aquestes en text pla, és a dir, que mai shan de guardar la contrasenya tal qual. Aquestes contrasenyes han de passar per una funció hash, un algorisme que transforma la contrasenya en una cadena de caracters sense cap sentit i que és impracticable recuperar la contrasenya incial a partir de la cadena de carcaters creada pel hash. Daquesta manera, els servidor que guarden aixi les contrasenyes, comparen el hash de la contrasenya que introduim per accedir amb el hash de la contrasenya que tenim guardada en la base de dades. Si son el mateix hash, ens donen accés. Així els servidors on estan les contrasenyes sasseguren que en cas que algú accedisca a la seua base de dades, no puga realment saber quina contrasenya hem emprat i els usuaris i els seus comptes romanen segurs. 
+
+Pel que fa a la practica dels usuaris, el millor lloc per guardar les nostres credencials és un gestor de contrasenyes. Altra opció que pot pareixer segura és mantindre un registre personal en una llibreta xicoteta, privada, intima i amagada de tothom en la qual apuntem els usuaris i contrasenyes de cada un dels registres que fem. Lopció dels gestors de contrasenyes és millor, donat que ens pot proporcionar serveis addicionals que ens ajuden a gestionar els nostres comptes i a més podem facilment accedir a aquestos desde qualsevol plataforma en qualsevol moment. La llibreteta pot pareixer més cómoda, però cal ser molt rigorós per mantindre-la segura i actualitzada constatment i a més no és pràctic dur-la amb nosaltres i per tant la tirarem en falta quan eixim del seu amagatall. Per no parlar del que pot passar si algú la troba o la perdem...
+
+Opcions comunes que no són gens recomanables: un posit en la pantalla del ordinador, un arxiu en l'escriptori de l`ordinador, notes al mòbil, xats privats, correus electrònics o la més comuna de totes, la nostra memòria. 
+
 ## QUÈ SÓN ELS GESTORS DE CONTRASENYES:
 Els gestors de contrasenyes són eines dissenyades per emmagatzemar, organitzar i protegir de manera segura totes les contrasenyes que utilitzem en el nostre dia a dia. Funcionen com una mena de "caixa forta digital" on només hem de recordar una única contrasenya mestra (com comprendreu, ha se der una contrasenya forta) per accedir a totes les altres. Aquests gestors són especialment útils per evitar la pràctica comuna i insegura de repetir contrasenyes en diferents comptes o utilitzar combinacions fàcils de recordar (1234, qwertyuiop, queguap@soc, admin, estudiant...). 
 
@@ -25,6 +33,11 @@ Els gestors de contrasenyes emmagatzemen les credencials en una base de dades xi
 Riscos:
 
 Si oblidem o ens furten la contrasenya mestra del nostre compte del gestor de contrasenyes, tots els nostres comptes que tingam guardats estaran compromesos o no podrem accedir a ells. Per altra banda, si aquestos gestors cauen en males pràctiques i tenen vulnerabilitats greus, totes les nostresdades poden quedar exposades amb tot el perill que aixo comporta. 
+
+Opcions:
+- LastPass: multiplataforma, genera contrasenyes, autocompleció, emmagatzament xifrat, gratuït per les funcionalitats basiques.
+- 1Password: multiplataforma, interficie fàcil, MFA, autocompleció, generació de contrassenyes i altres funcionalitats, de pagament.
+- Bitwarden: multiplataforma, codi obert, alt nivell de seguretat, generació de ontrasenyes i autocompleció, versió gratuita prou completa i opcions premium a bon preu.
 
 ## PER QUÈ ÉS IMPORTANT NO REPETIR CONTRASENYES:
 
