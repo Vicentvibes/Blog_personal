@@ -51,3 +51,10 @@ Són contrasenyes altament segures i comodes de practicar. En cas de ser comprom
 - Si alguna base de dades daquest tipus de contrasenyes és compromesa, correm molt de perill. No sols per que puguen aprofitar eixa informació per qualsevol finalitat sofisticada (IA), sino que pot ser facil i ràpidament utilitzada per usuarpar la nostra identitat en altres accesos.
 
 ## SOBRE CONTRASENYES QUE TENIM:
+
+## SOBRE CONTRASENYES QUE SABEM:
+
+## ATACS A LES NOSTRES CONTRASENYES
+
+## BONES PRÀCTIQUES PER CREAR CONTRASENYES
+
