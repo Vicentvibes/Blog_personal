@@ -1,64 +1,56 @@
 # CONTRASENYES
+Hui dia, les contrasenyes o claus de seguretat són l’equivalent modern dels forrellats i les muralles. Són allò que separa la nostra privacitat digital de l’exterior, i si es veuen compromeses podem caure en una autèntica cascada de problemes que, en el pitjor dels casos, ens poden arruïnar la vida.
 
-Hui dia les contrasenyes o claus de seguretat són l'equivalent modern dels forrellats o les muralles. Són allo que separa la nostra privacitat digital de l`exterior i si són compromeses podem caure en una cascada de problemes que ens poden arribar a afonar la vida.
+## QUINS TIPUS DE CONTRASENYA HI HA?
+Podem classificar les contrasenyes de moltes maneres, però una de les classificacions més interessants és en funció del seu origen. Poden ser:
 
-## QUINS TIPUS DE CONTRASENYA HI HA:
+### Alguna cosa que sabem: 
+Les contrasenyes més comunes, el que ens ve al cap quan pensem en la paraula “contrasenya”. Són cadenes de caràcters (majúscules, minúscules, números o símbols especials) que hem après de memòria. El problema és que, si hem de recordar moltes, tendim a simplificar-les, a repetir-les i, per tant, a fer-les dèbils. Són l’origen del 90% de problemes de seguretat: persones que utilitzen “123456”, “password” o el nom de la seua mascota. És per això que recomanem sempre crear contrasenyes robustes, úniques i difícils d’endevinar, i utilitzar un gestor de contrasenyes per no haver d’emprar la mateixa a tot arreu. 
 
-Podem classificar de moltes maneres les contrasenyes. Una de les classificacions més interesants consisteix en l´origen daquestes. Poden ser:
+### Alguna cosa que tenim:
+Són contrasenyes associades a un objecte físic o a un canal digital que podem posseir. Poden ser targetes de transport, claus electròniques, tokens de seguretat, o codis que rebem via SMS. Aquests tipus de claus s’assemblen molt a les claus físiques d’una porta. Són molt pràctiques. El problema és que les podem perdre, ens les poden robar o duplicar amb facilitat. A més, canviar-les pot ser costós i lent. Per això, s’acostumen a combinar amb altres factors per augmentar la seguretat (MFA). 
 
-- Algo que sabem: són les contrasenyes més comunes i les que solem tindre en ment quan escolpem la paraula "contrasenya". Són cadenes de caràcters més o menys llargues i amb més o menys varietat de caràcters (majúscules, minuscules, nombres o caràcters especials) LES QUALS ENS HEM APRÉS DE MEMÒRIA. Exemples: el pin del mòbil, el pin de la targeta de credit, la contrasenya del wifi... Són les contrasenyes més comunes i que poden ser facils doblidar o endevinar i per tant són prou delicades.
-- Algo que tenim: són contrasenyes que tenim en un format físic o que ens arriben a algun canal digital. Poden tindre diferents formats i no necessariament són "visibles". Exeples d'aquest tipus de contrasenya: la targeta de transport públic o per entrar al gimnàs, missatges SMS que ens arriben al mòbil amb claus temporals per realitzar alguna acció... Són claus de pas que podriem relacionar molt fàcilment amb una clau física duna porta. Els riscos associats aquestes contrasenyes és que es poden perdre, furtar o duplicar amb molta facilitat. 
-- Algo que som: questes contrasenyes estan formades per aspectes biomètrics personals com la nostra empremta dactilar, reconeixement facial, escaner de iris, reconeixement de veu o comportament dinàmic del teclat. Són trets associats directament amb nosaltres i dalta sofisticació i complexitat. El seu problema sol ser que en cas de estar ompromesos són molt dificils de canviar i que la probabilitat derrors de lectura és alta (falsos positius i negatius).
+### Alguna cosa que som: 
+Contrasenyes basades en dades biomètriques com empremtes dactilars, reconeixement facial, escàner d’iris o fins i tot patrons de comportament (com la dinàmica al teclat). Són segures i còmodes, però tenen inconvenients. Si es comprometen, són difícils o impossibles de canviar ja que formen part de la nostra pròpia identitat (empremta, iris, veu...). També poden ser més fàcils de furtar del que pensem mitjançant tècniques de clonació, IA i altres. A més, existeix el risc que la informació biomètrica es faça servir per a finalitats no previstes en el futur, especialment si bases de dades d’aquest tipus es veuen compromeses o, com fa uns pocs anys, algunes empreses es dediquen a obtindre les teues [dades biometriques per uns bitcoins](https://www.rtve.es/noticias/20240225/asi-es-worldcoin-escaneo-iris-criptomonedas-negocio-chatgpt/15982136.shtml). 
 
-
-## QUÈ VOL DIR MFA:
-
-MFA són les sigles de Multi-Factor Authentication, en valencià: múltiples factors d'autenticació. És la pràctica de combinar almenys dos dels tipus de contrasenya que hem descrit abans per tal dobtindre accés. Aquest tipus dautenticació sha tornat molt popular ja que al combinar almenys dos contrasenyes, la seguretat daccés és molt millor i en cas de tindre alguna de les contrasenyes compromesa, els usuaris no pateixen atacs. Exemples daquesta pràctica els podem trobar en gimnasos quan passem una targeta i una emprempta dactilar per accedir, quan fem un moviment bancari i hem dutilitzar una contrasenya i un missatge que ens arriba al mòbil o quan accedim a un compte de gmail desde un aparell totalment nou i hem dintroduir contrasenya i confirmar des de un dispositius mòbil associat. Aquesta pràctica és molt recomanable i sempre que pugam deuriem activar-la. 
+## QUÈ VOL DIR MFA?
+MFA són les sigles de “Multi-Factor Authentication” (Autenticació Multifactor). Significa combinar almenys dos dels tipus de contrasenyes anteriors per accedir a un compte. En fer-ho, la seguretat es multiplica: si una de les “claus” es veu compromesa, l’altra segueix protegint-nos. Un exemple d’MFA pot ser accedir al gimnàs amb una targeta i una empremta dactilar, o fer un moviment bancari introduint la contrasenya i confirmant-ho amb un codi rebut al mòbil. Aquesta pràctica és molt recomanable i, sempre que puguem, l’hauríem d’activar.
 
 ## COM ES GUARDEN LES CONTRASENYES?
+Les bones pràctiques d’emmagatzematge de contrasenyes als servidors estableixen que mai s’han de guardar en text pla. En lloc d’això, es passen per una funció hash, un algorisme que converteix la contrasenya en una cadena de caràcters sense sentit. Això fa impracticable recuperar la contrasenya original a partir d’aquesta cadena. Quan introduïm la nostra clau per accedir, el servidor en fa el hash i el compara amb el que té guardat; si coincideixen, ens dóna accés. D’aquesta manera, tot i que algú accedisca a la base de dades, només obtindrà hashes sense utilitat pràctica.
 
-Les bones practiques demmagatzematge de contrasenyes en bases de dades estableixen que mai shan de guardar aquestes en text pla, és a dir, que mai shan de guardar la contrasenya tal qual. Aquestes contrasenyes han de passar per una funció hash, un algorisme que transforma la contrasenya en una cadena de caracters sense cap sentit i que és impracticable recuperar la contrasenya incial a partir de la cadena de carcaters creada pel hash. Daquesta manera, els servidor que guarden aixi les contrasenyes, comparen el hash de la contrasenya que introduim per accedir amb el hash de la contrasenya que tenim guardada en la base de dades. Si son el mateix hash, ens donen accés. Així els servidors on estan les contrasenyes sasseguren que en cas que algú accedisca a la seua base de dades, no puga realment saber quina contrasenya hem emprat i els usuaris i els seus comptes romanen segurs. 
+Com a usuaris, el millor lloc per guardar les nostres credencials és un gestor de contrasenyes. Una altra opció podria ser una llibreta física ben amagada i actualitzada, però això és menys pràctic i més insegur. Més opcions desaconsellades serien posar-les en notes al mòbil, xats privats, correus electrònics o, fins i tot, confiar únicament en la nostra memòria.
 
-Pel que fa a la practica dels usuaris, el millor lloc per guardar les nostres credencials és un gestor de contrasenyes. Altra opció que pot pareixer segura és mantindre un registre personal en una llibreta xicoteta, privada, intima i amagada de tothom en la qual apuntem els usuaris i contrasenyes de cada un dels registres que fem. Lopció dels gestors de contrasenyes és millor, donat que ens pot proporcionar serveis addicionals que ens ajuden a gestionar els nostres comptes i a més podem facilment accedir a aquestos desde qualsevol plataforma en qualsevol moment. La llibreteta pot pareixer més cómoda, però cal ser molt rigorós per mantindre-la segura i actualitzada constatment i a més no és pràctic dur-la amb nosaltres i per tant la tirarem en falta quan eixim del seu amagatall. Per no parlar del que pot passar si algú la troba o la perdem...
+## QUÈ SÓN ELS GESTORS DE CONTRASENYES?
+Els gestors de contrasenyes són eines dissenyades per emmagatzemar, organitzar i protegir de manera segura totes les contrasenyes que usem en el nostre dia a dia. Són com una caixa forta digital: només cal recordar una contrasenya mestra (que, per descomptat, ha de ser molt forta).
 
-Opcions comunes que no són gens recomanables: un posit en la pantalla del ordinador, un arxiu en l'escriptori de l`ordinador, notes al mòbil, xats privats, correus electrònics o la més comuna de totes, la nostra memòria. 
+Funcionen emmagatzemant les credencials en una base de dades xifrada. La majoria, a més, poden generar contrasenyes fortes i úniques per a cada compte, eliminar la necessitat de memoritzar-les, sincronitzar dades entre dispositius i omplir automàticament els camps de nom d’usuari i contrasenya en els navegadors.
 
-## QUÈ SÓN ELS GESTORS DE CONTRASENYES:
-Els gestors de contrasenyes són eines dissenyades per emmagatzemar, organitzar i protegir de manera segura totes les contrasenyes que utilitzem en el nostre dia a dia. Funcionen com una mena de "caixa forta digital" on només hem de recordar una única contrasenya mestra (com comprendreu, ha se der una contrasenya forta) per accedir a totes les altres. Aquests gestors són especialment útils per evitar la pràctica comuna i insegura de repetir contrasenyes en diferents comptes o utilitzar combinacions fàcils de recordar (1234, qwertyuiop, queguap@soc, admin, estudiant...). 
+Riscos: si oblidem o ens roben la contrasenya mestra, perdem l’accés a totes les credencials. A més, si el servei del gestor pateix vulnerabilitats, els nostres secrets podrien quedar exposats.
 
-Com funcionen? 
+Algunes opcions populars:
 
-Els gestors de contrasenyes emmagatzemen les credencials en una base de dades xifrada, accessible només amb la contrasenya mestra. La majoria daquestos gestors també generen contrasenyes fortes i úniques per a cada compte, ajudant-nos a millorar la seguretat sense tindre que de memoritzar-les. Els gestors més avançats poden sincronitzar-se entre dispositius (aplicacions del mòbil o programes de lordinador) i integrar-se amb navegadors (extensions de chrome o firefox) per omplir automàticament els camps de nom d’usuari i contrasenya.
-
-Riscos:
-
-Si oblidem o ens furten la contrasenya mestra del nostre compte del gestor de contrasenyes, tots els nostres comptes que tingam guardats estaran compromesos o no podrem accedir a ells. Per altra banda, si aquestos gestors cauen en males pràctiques i tenen vulnerabilitats greus, totes les nostresdades poden quedar exposades amb tot el perill que aixo comporta. 
-
-Opcions:
-- LastPass: multiplataforma, genera contrasenyes, autocompleció, emmagatzament xifrat, gratuït per les funcionalitats basiques.
-- 1Password: multiplataforma, interficie fàcil, MFA, autocompleció, generació de contrassenyes i altres funcionalitats, de pagament.
-- Bitwarden: multiplataforma, codi obert, alt nivell de seguretat, generació de ontrasenyes i autocompleció, versió gratuita prou completa i opcions premium a bon preu.
-
-## PER QUÈ ÉS IMPORTANT NO REPETIR CONTRASENYES:
-
-Les raons per no repetir contrasenyes poden ser obvies, però convé recordar-les. És clar que no seria desitjable ni segur obrir totes les nostres portes i accesos amb la mateixa clau, ja que en cas de perdre-la )oblidar-la= o que ens la frtaren, ens quedariem sense accés a la nostra casa o ens podrien facilment furtar allò que protegien. Però, màgradaria contar un cas pràctic que pot ser no tothom té en ment: recordeu aquella aplicació de menjar a domicili o aquella pàgina de retocs fotogràfics que sols emprareu una vegada? No, veritat? pot ser podeu fer una ullada en el vostre compte de mail a aquells llocs als quals vos heu inscrit i recordar-ho. Bé, doncs us vau inscriure utilitzant una contrasenya facil, la que sempre recordeu, la del compte de Steam, Instagram i laplicació que utilitzeu per eixir a correr. Han passat els anys i no heu canviat aquestes contrasenyes. Bé doncs, després de tants anys reulta que aquestes aplicacions a les quals us vau inscriure han caigut en desgràcia i han quedat oblidades en un servidor barat de Filipines, no empraven bones practiques i les vostres dades dusuari no estaven codificades. Ara resulta que, gràcies al avanç de les eines de hacking i noves vulnerabilitats trobades, han recopilat les dades daquest servidor i estan exposades en el mercat negre per tal daconseguir diners. Ara venen les conseqüencies: qui compre aquestes dades té el vostre nom dusuari (que també és el mateix que utilitzeu en totes parts), el correu electrònic amb el qual us vareu inscriure i la contrasenya quee vareu utilitzar. Seria molt senzill que ara aquesta persona amb finalitats malicioses prove a introduir el vostre usuari i contrasenya en una llista llarga daplicacions per vore si te sort i obté accés al vostre compte de Steam, Instagram o Runtastic. Ara les dades que pot aconseguir de vosaltres són molt més perilloses: té el vostre nom, fotos vostres, jocs que havieu comprat, dades de targetes bancaries, dades sobre el vostre rendiment cardíac o dades sobre les rutes que vos agrada fer quan corregueu (poden saber prou bé on viviu i on he viscut, vaja). Les conseqüencies podrien seguir, en són moltes. Però ja ens fem una idea de la importància de no repetir contrasenyes, cert?
-
-## SOBRE CONTRASENYES QUE SOU (BIOMÈTRIQUES):
-Són contrasenyes altament segures i comodes de practicar. En cas de ser compromeses dalguna manera, si bé poden ser impossibles de reemplaçar (com el cas de la veu o el iris), solen estar combinades amb altre tipus de contrasenya i per tant podem estar relativament tranquils. Però, hi ha aspectes importants a tindre en compte i cura:
-
--Poden ser més facils de furtar del que pensem. Existeixen mètodes pels quals extreure les senyals (localització de valls i nodes) que lligen els lectors de empremptes dactilars mitjançant per exemple un micròfon, la veu hui dia es pot arribar a simular mitjançant IA en base a audios que manem...
-- La informació compresa en les nostres dades biomètriques pot ser aprofitada. Hui dia no tenim per què saber les implicacions que pot tindre certa forma del iris, de la empremta dactilar o de variacions de la veu. Però en un futur aquesta informació, guardada en bases de dades, podria representar una amenaça a la nostra privacitat. Igualment, si no és així, estem concedint una informació que en algun moment es podria utilitzar per entrenar algun model dintel·ligencia artificial encarregat de predir o classificar aquestes mètriques amb finalitats totalment alienes a la nostra voluntat.
-- Si alguna base de dades daquest tipus de contrasenyes és compromesa, correm molt de perill. No sols per que puguen aprofitar eixa informació per qualsevol finalitat sofisticada (IA), sino que pot ser facil i ràpidament utilitzada per usuarpar la nostra identitat en altres accesos.
-
-## SOBRE CONTRASENYES QUE TENIM:
-
-Aquestes contrasenyes són molt pràctiques i còmodes. Segueixen lestil clàssic de una porta, una clau. El prinipal problema que tenen és la facilitat que tenim per perdre aquest tipus de claus quan són físiques o la necessitat de tindre altre dispositiu pel qual consultar o verificar (SMS del banc per exemple). A més, canviar aquest tipus de claus sol comportar uns costos i temps majors a altres opcions. Per aquestes raons, aquestes contrasenyes se solen utilitzar per accedir a llocs físics en els quals pot haver altra persona que ajude a gestionar el accés o per MFA i accesos a recursos sensibles dels usuaris com poden ser comptes bancaris, mail o LinkedIn. 
-
-## SOBRE CONTRASENYES QUE SABEM:
-
+LastPass: Multiplataforma, genera contrasenyes, autocompleció, emmagatzematge xifrat. Gratuït en funcionalitats bàsiques.
+1Password: Multiplataforma, interfície fàcil, MFA, generació de contrasenyes i altres funcionalitats. De pagament.
+Bitwarden: Multiplataforma, codi obert, alt nivell de seguretat, generació de contrasenyes, autocompleció. Versió gratuïta completa i opcions premium a bon preu.
+PER QUÈ ÉS IMPORTANT NO REPETIR CONTRASENYES?
+Repetir contrasenyes és perillós. Si una d’elles es veu compromesa en un servei amb poca seguretat, l’atacant pot provar la mateixa contrasenya en altres comptes més valuosos (el correu, el banc, les xarxes socials...). Açò pot provocar l’efecte dominó, on la pèrdua d’un compte poc important pot acabar afectant els teus comptes més sensibles i la teua vida digital en general. Per tant, no repetir contrasenyes és vital.
 
 
 ## ATACS A LES NOSTRES CONTRASENYES
+Les contrasenyes poden ser atacades de múltiples formes:
+
+Atacs de força bruta: provar combinacions aleatòries fins encertar la clau.
+Atacs per diccionari: emprar llistes de paraules comunes o conegudes per a l’usuari.
+Phishing: enganyar l’usuari perquè lliure la contrasenya en un lloc fals.
+Enginyeria social: manipular l’usuari perquè confesse les seues dades.
+Filtracions i robatoris de bases de dades: accedir a servidors de serveis poc segurs i obtindre’n les credencials en text pla o en hash feble.
 
 ## BONES PRÀCTIQUES PER CREAR CONTRASENYES
+Fer servir contrasenyes llargues i complexes: Barrejar majúscules, minúscules, números i caràcters especials. Com més llarga i variada siga la contrasenya, millor.
+No reutilitzar contrasenyes: Cada compte ha de tindre la seua pròpia contrasenya única.
+Utilitzar gestors de contrasenyes: Així evitem haver de memoritzar-ho tot i reduïm la temptació de fer contrasenyes dèbils.
+Actualitzar les contrasenyes periòdicament: Especialment les més sensibles (correu, banc, serveis crítics).
+Activar MFA sempre que siga possible: Combinar almenys dos factors d’autenticació.
+Evitar dades personals o paraules evidents: Noms propis, dates de naixement, seqüències senzilles (1234…), etc.
 
