@@ -46,13 +46,17 @@ Les raons per no repetir contrasenyes poden ser obvies, però convé recordar-le
 ## SOBRE CONTRASENYES QUE SOU (BIOMÈTRIQUES):
 Són contrasenyes altament segures i comodes de practicar. En cas de ser compromeses dalguna manera, si bé poden ser impossibles de reemplaçar (com el cas de la veu o el iris), solen estar combinades amb altre tipus de contrasenya i per tant podem estar relativament tranquils. Però, hi ha aspectes importants a tindre en compte i cura:
 
--Poden ser més facils de furtar del que pensem. Existeixen mètodes pels quals extreure les senyals (localització de valls i nodes) que lligen els lectors de empremptes dactilars mitjançant per exemple un micròfon, la veu hui dia es pot arribar a simular mitjançant IA en base a audios que manem.
+-Poden ser més facils de furtar del que pensem. Existeixen mètodes pels quals extreure les senyals (localització de valls i nodes) que lligen els lectors de empremptes dactilars mitjançant per exemple un micròfon, la veu hui dia es pot arribar a simular mitjançant IA en base a audios que manem...
 - La informació compresa en les nostres dades biomètriques pot ser aprofitada. Hui dia no tenim per què saber les implicacions que pot tindre certa forma del iris, de la empremta dactilar o de variacions de la veu. Però en un futur aquesta informació, guardada en bases de dades, podria representar una amenaça a la nostra privacitat. Igualment, si no és així, estem concedint una informació que en algun moment es podria utilitzar per entrenar algun model dintel·ligencia artificial encarregat de predir o classificar aquestes mètriques amb finalitats totalment alienes a la nostra voluntat.
 - Si alguna base de dades daquest tipus de contrasenyes és compromesa, correm molt de perill. No sols per que puguen aprofitar eixa informació per qualsevol finalitat sofisticada (IA), sino que pot ser facil i ràpidament utilitzada per usuarpar la nostra identitat en altres accesos.
 
 ## SOBRE CONTRASENYES QUE TENIM:
 
+Aquestes contrasenyes són molt pràctiques i còmodes. Segueixen lestil clàssic de una porta, una clau. El prinipal problema que tenen és la facilitat que tenim per perdre aquest tipus de claus quan són físiques o la necessitat de tindre altre dispositiu pel qual consultar o verificar (SMS del banc per exemple). A més, canviar aquest tipus de claus sol comportar uns costos i temps majors a altres opcions. Per aquestes raons, aquestes contrasenyes se solen utilitzar per accedir a llocs físics en els quals pot haver altra persona que ajude a gestionar el accés o per MFA i accesos a recursos sensibles dels usuaris com poden ser comptes bancaris, mail o LinkedIn. 
+
 ## SOBRE CONTRASENYES QUE SABEM:
+
+
 
 ## ATACS A LES NOSTRES CONTRASENYES
 
