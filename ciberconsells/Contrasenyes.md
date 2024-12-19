@@ -1,5 +1,5 @@
 # CONTRASENYES
-Hui dia, les contrasenyes o claus de seguretat són l’equivalent modern dels forrellats i les muralles. Són allò que separa la nostra privacitat digital de l’exterior, i si es veuen compromeses podem caure en una autèntica cascada de problemes que, en el pitjor dels casos, ens poden arruïnar la vida.
+Hui dia, les contrasenyes o claus de seguretat són l’equivalent modern dels forrellats i les muralles. Són allò que separa la nostra privacitat digital de l’exterior, i si es veuen compromeses podem caure en una autèntica cascada de problemes que, en el pitjor dels casos, ens poden arruïnar la vida. L'objectiu d'aquest post no és altre que donar a coneixer els principals conceptes relacionats amb les contrasenyes i com aconseguir tindre contrasenyes a prova de qualsevol atac i fàcils de recordar.
 
 ## QUINS TIPUS DE CONTRASENYA HI HA?
 Podem classificar les contrasenyes de moltes maneres, però una de les classificacions més interessants és en funció del seu origen. Poden ser:
@@ -38,25 +38,46 @@ Algunes opcions populars:
 
 Personalment recomane Bitwarden, no és gens difícil de utilitzar, pràctic i totalment gratuit; és el que jo utilitze fins ara. 
 
-## ATACS A LES NOSTRES CONTRASENYES
-
-### [Atacs de força bruta](https://www.youtube.com/watch?v=WfsrmT72F5s): 
-Són atacs que consisteixen en provar totes les possibles combinacions fins trobar la correcta que dona accés. L'exemple més clàssic seria provar les 10000 combinacions numèriques d'un cadenat amb clau de quatre dígits, però és també aplicable a entorns digitals i és un tipus d'atac molt fàcil d'automatitzar. 
-
-### Atac de diccionari:
-Provem una llista predefinida de contrasenyes comunes i/o combinacions personalitzades, aprofitant la tendència dels usuaris a emprar contrasenyes febles i previsibles. En la següent imatge podem vore un programa que crea aquest tipus de diccionaris personalitzats:
-![Exemple de diccionari personalitzat](../Imatges/HTB_diccionari_personalitzat_contrasenyes.png)
-
-### Enginyeria social:
-La enginyeria social és el tipus d'atac a la privacitat segurament més antic. Els coneguem popularment com timos, estafes. Tots en coneguem els més emblemàtics com el de la estampeta o el príncep nigerià. Però gràcies a la digitalització de la societat, aquestes estafes han trobat noves formes d'enganyar a les victimes. Hui dia aquestes estafes ens arriben en forma de missatge SMS, mail o whatsapp i cada vegada són més sofisticades i alarmantment efectives. Pot arribar a ser molt difícil detectar que ens estan atacant. Un exemple actualment molt comú són els missatges SMS de Correus que arriben alertant-nos que ens ha arribat un paquet (quan no esperem cap comanda) i hem de visitar no se quin enllaç i donar certa informació... La enginyeria social bé mereix un apartat propi al blog. 
-
 
 ## BONES PRÀCTIQUES PER CREAR CONTRASENYES
-Fer servir contrasenyes llargues i complexes: Barrejar majúscules, minúscules, números i caràcters especials. Com més llarga i variada siga la contrasenya, millor.
-No reutilitzar contrasenyes: Cada compte ha de tindre la seua pròpia contrasenya única.
-Utilitzar gestors de contrasenyes: Així evitem haver de memoritzar-ho tot i reduïm la temptació de fer contrasenyes dèbils.
-Actualitzar les contrasenyes periòdicament: Especialment les més sensibles (correu, banc, serveis crítics).
-Activar MFA sempre que siga possible: Combinar almenys dos factors d’autenticació.
-Evitar dades personals o paraules evidents: Noms propis, dates de naixement, seqüències senzilles (1234…), etc.
-### NO REPETIR CONTRASENYES
-Repetir contrasenyes és perillós. Si una d’elles es veu compromesa en un servei amb poca seguretat, qualsevol persona pot provar la mateixa contrasenya en altres comptes més valuosos (el correu, el banc, les xarxes socials...) provocant un efecte dominó, on la pèrdua d’un compte poc important pot acabar afectant els teus comptes més sensibles i la teua vida digital en general. Per tant, no repetir contrasenyes és vital.
+
+### El tamany importa:
+Fer servir contrasenyes llargues i complexes és molt important per aconseguir una contrasenya forta. Barrejar majúscules, minúscules, números i caràcters especials. Com més llarga i variada siga la contrasenya, millor. Si algú intenta esbrinar la nostra ccontrasenya, s'enfrontarà a la següent fórmula:
+
+Nombre de possibles combinacions = (Tamany del conjunt de caràcters) ^ Tamany de la contrasenya.
+
+Per un pin de quatre dígits (10 possibles caràcters, del 0 al 9): 10 ^ 4 = 10000 possibles combinacions
+Per una contrasenya amb sols lletres minúscules (26 lletres) i de 6 caràcters (qwerty): 26 ^6 = 308.915.776 possibles combinacions
+Una contrasenya de majúscules, minúscules, dígits i caràcters specials (94 possibles caràcters) de 10 caràcters : 94 ^10 = 53.861.511.400.000.000.000, més de 53 trillons de combinacions.
+
+Si ens fixem en la fórmula plantejada, és molt important emprar tots els caràcters disponibles (A-Z, a-z, 0-9, #@~€¬&?¿+*^[]{}-;:etc...), però és inclús encara més important la seua longitud. Per tant, si, el tamany importa moltissim a l'hora de crear les nostres contrasenyes. Però no vos preocupeu, més endavant vorem tècniques per crear contrasenyes llargues, complexes i fàcils de recordar. 
+
+### No et cases amb les contrassenyes:
+
+La fidelitat és un tret socialment molt preciat, però gens segur. És molt comú no canviar mai la nostra contrassenya i mantindre-la com si es tractara de l'amor de la nostra vida. Aquesta pràctica, combinada amb la reutilització de contrasenyes que més endavant parlarem, fica en perill els nostres comptes personals. En el cas estricte de no canviar-les mai, si algú aconsegueix tindre accés a la nostra contrasenya, la troba anotada en algún lloc o la recorda després de molt temps que la varem deixa, correm el perill que puga accedir als nostres comptes de per vida. Convé canviar les contrasenyes cada pocs mesos, dos vegades a l'any com a poc! D'aquesta forma, la teua exparella no podrà accedir al teu compte de netflix! 
+
+### No repetisques la mateixa contrasenya:
+
+De la mateixa manera que no és recomanable tindre una mateixa clau pel garaig, el cotxe, la llar, el treball i la casa dels teus pares; no és gens segur emprar la mateixa contrasenya per a diferents comptes. És comú que per evitar necessitar recordar docenes de contrasenyes repetim una mateixa per diferents comptes. Qui estiga lliure d'aquest pecat, que polse el botó nuclear. Però si alguna d'aquestes contrasenyes és descoberta, és molt senzill per qualsevol atacant provar a utilitzar-la en altres aplicacions i comptes per tal d'accedir a la nostra informació. Penseu per un moment en la de plataformes que compten amb les vostres dades bancàries: Amazon, Deliveroo, Uber, JustEat, Airbnb, Groupon... Esteu segurs que aquestos comptes no tenen la mateixa contrasenya que li vareu ficar a un joc absurde al qual us vareu tindre que subscriure per jugar? No preferirieu canviar-la? 
+
+### Utilitza els gestors de contrassenyes:
+Tots aquestos problemes que hem descrit són fàcilment resolts emprant un gestor de contrasenyes. Aquest pot fàcilment crear i recordar contrasenyes complexes, llargues i úniques per a cada compte. A més, podem emprar aquest gestor de contrasenyes en qualsevol dispositiu. 
+
+### Activar MFA
+Sempre que siga possible és recomanable emprar la Autenticació Multifactor. D'aquesta manera si alguna contrasenya està compromesa, qualsevol atacant tindrà que redoblar esforços per obtindre l'altra part de la autenticació. És com si per atracar-nos, algú tinguera que amedrentar a la vegada a dos persones que es troben en dos ciutats diferents.
+
+## TALLER DE CONTRASENYES:
+
+Abans de començar amb aquest xicotet taller d'exemples, ens queda un últim concepte molt important. Normalment quan pensem en contrasenyes pensem en una mena de "paraula", un xurro de caràcters. Hui dia és sabut que és més aconsellable canviar aquesta noció per la de "PASSPHRASE" (frase de seguretat). La idea és augmentar la seguretat i complexitat de les contrasenyes pensant en un conjunt de xurros. En aquest sentit i recordant els consells de tamany i varietat de caràcters us presente les següents idees per crear les vostres contrasenyes: 
+
+- Procedència de les vostres exparelles ordenat alfabèticament, separades per un caràcter especial, l'any en que us vareu coneixer i per acabar altre caràcter diferent: Santander17;Tenerife13;Terol16;Zamora22$
+- El model i color dels cotxes amb els quals vares creixer en la teua llar separats per un caràcter especial, la matrícula del teu cotxe actual i per acabar altre caràcter especial diferent: FiestaBlanc-FiatPlatejat-i30Roig-4553HFN)
+- El teu plat favorit, dos caràcters especials seguits, un aliment que odies, els mateixos dos caràcters especials i el teu any de naixement menys 11: ArrosAlForn:-Lentilles:-74
+- Paraules mal escrites comunes en la teua familia separades per un caràcter especial, l'any d'alguna pèrdua significativa i un últim caràcter especial: Calandario+Gomitar+Jeripolla2021?
+
+Com podeu comprovar, no té per qué ser difícil crear contrasenyes complexes, llargues i fàcils de memoritzar. El millor consell que us puc donar és que creeu varies d'aquestes possibles contrasenyes i la que més vos agrade, siga ben forta i us siga agradable de recordar: EMPREU-LA PER CREAR EL VOSTRE COMPTE EN EL GESTOR DE CONTRASENYES! Aquesta serà la clau que obriga i guarde tots els panys!
+
+Comproveu com de fortes són les vostres contrasenyes en les següents pàgines web:
+[Kaspersky Password Checker](https://password.kaspersky.com/es/)
+[BitWarden Password Tester](https://bitwarden.com/password-strength/)
+[The Password Meter](https://passwordmeter.com/)
