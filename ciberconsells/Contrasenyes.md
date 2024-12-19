@@ -5,13 +5,15 @@ Hui dia, les contrasenyes o claus de seguretat són l’equivalent modern dels f
 Podem classificar les contrasenyes de moltes maneres, però una de les classificacions més interessants és en funció del seu origen. Poden ser:
 
 ### Alguna cosa que sabem: 
-Les contrasenyes més comunes, el que ens ve al cap quan pensem en la paraula “contrasenya”. Són cadenes de caràcters (majúscules, minúscules, números o símbols especials) que hem après de memòria. El problema és que, si hem de recordar moltes, tendim a simplificar-les, a repetir-les i, per tant, a fer-les dèbils. Són l’origen del 90% de problemes de seguretat: persones que utilitzen “123456”, “password” o el nom de la seua mascota. És per això que recomanem sempre crear contrasenyes robustes, úniques i difícils d’endevinar, i utilitzar un gestor de contrasenyes per no haver d’emprar la mateixa a tot arreu. 
+Les contrasenyes més comunes, el que ens ve al cap quan pensem en la paraula “contrasenya”. Són cadenes de caràcters (majúscules, minúscules, números o símbols especials) que hem après de memòria. El problema és que, si hem de recordar moltes, tendim a simplificar-les, a repetir-les i, per tant, a fer-les dèbils. Són l’origen del 90% de problemes de seguretat: persones que utilitzen “123456”, “password” o el nom de la seua mascota. És per això que recomanem sempre crear contrasenyes robustes, úniques i difícils d’endevinar, i utilitzar un gestor de contrasenyes per no haver d’emprar la mateixa a tot arreu. Més avall vorem què és aixo del gestor de contrasenyes i com crear contrasenyes fortes.
 
 ### Alguna cosa que tenim:
-Són contrasenyes associades a un objecte físic o a un canal digital que podem posseir. Poden ser targetes de transport, claus electròniques, tokens de seguretat, o codis que rebem via SMS. Aquests tipus de claus s’assemblen molt a les claus físiques d’una porta. Són molt pràctiques. El problema és que les podem perdre, ens les poden robar o duplicar amb facilitat. A més, canviar-les pot ser costós i lent. Per això, s’acostumen a combinar amb altres factors per augmentar la seguretat (MFA). 
+Són contrasenyes associades a un objecte físic o a un canal digital que podem posseir.  Aquests tipus de claus s’assemblen molt a les claus físiques d’una porta. Són molt pràctiques. El problema és que les podem perdre de seguida i ens les poden furtar o duplicar amb facilitat. A més, canviar-les pot ser costós i lent. Per això, s’acostumen a combinar amb altres factors per augmentar la seguretat (MFA).
 
 ### Alguna cosa que som: 
-Contrasenyes basades en dades biomètriques com empremtes dactilars, reconeixement facial, escàner d’iris o fins i tot patrons de comportament (com la dinàmica al teclat). Són segures i còmodes, però tenen inconvenients. Si es comprometen, són difícils o impossibles de canviar ja que formen part de la nostra pròpia identitat (empremta, iris, veu...). També poden ser més fàcils de furtar del que pensem mitjançant tècniques de clonació, IA i altres. A més, existeix el risc que la informació biomètrica es faça servir per a finalitats no previstes en el futur, especialment si bases de dades d’aquest tipus es veuen compromeses o, com fa uns pocs anys, algunes empreses es dediquen a obtindre les teues [dades biometriques per uns bitcoins](https://www.rtve.es/noticias/20240225/asi-es-worldcoin-escaneo-iris-criptomonedas-negocio-chatgpt/15982136.shtml). 
+Contrasenyes basades en dades biomètriques. Són segures i còmodes, però tenen inconvenients. Si es comprometen són difícils o impossibles de canviar ja que formen part de la nostra pròpia identitat (empremta, iris, veu...). També poden ser més fàcils de furtar del que pensem mitjançant tècniques de clonació, IA i altres. A més, existeix el risc que la informació biomètrica es faça servir per a finalitats no previstes en el futur, especialment si bases de dades d’aquest tipus es veuen compromeses o, com fa uns pocs anys, algunes empreses es dediquen a obtindre les teues [dades biometriques per uns bitcoins](https://www.rtve.es/noticias/20240225/asi-es-worldcoin-escaneo-iris-criptomonedas-negocio-chatgpt/15982136.shtml). 
+
+![Exemples de contrasenyes](../Imatges/taula_tipus_contrasenyes.png)
 
 ## QUÈ VOL DIR MFA?
 MFA són les sigles de “Multi-Factor Authentication” (Autenticació Multifactor). Significa combinar almenys dos dels tipus de contrasenyes anteriors per accedir a un compte. En fer-ho, la seguretat es multiplica: si una de les “claus” es veu compromesa, l’altra segueix protegint-nos. Un exemple d’MFA pot ser accedir al gimnàs amb una targeta i una empremta dactilar, o fer un moviment bancari introduint la contrasenya i confirmant-ho amb un codi rebut al mòbil. Aquesta pràctica és molt recomanable i, sempre que puguem, l’hauríem d’activar.
@@ -34,18 +36,20 @@ Algunes opcions populars:
 - 1Password: Multiplataforma, interfície fàcil, MFA, generació de contrasenyes i altres funcionalitats. De pagament.
 - Bitwarden: Multiplataforma, codi obert, alt nivell de seguretat, generació de contrasenyes, autocompleció. Versió gratuïta completa i opcions premium a bon preu.
 
-##PER QUÈ ÉS IMPORTANT NO REPETIR CONTRASENYES?
-Repetir contrasenyes és perillós. Si una d’elles es veu compromesa en un servei amb poca seguretat, l’atacant pot provar la mateixa contrasenya en altres comptes més valuosos (el correu, el banc, les xarxes socials...). Açò pot provocar l’efecte dominó, on la pèrdua d’un compte poc important pot acabar afectant els teus comptes més sensibles i la teua vida digital en general. Per tant, no repetir contrasenyes és vital.
-
+Personalment recomane Bitwarden, no és gens difícil de utilitzar, pràctic i totalment gratuit; és el que jo utilitze fins ara. 
 
 ## ATACS A LES NOSTRES CONTRASENYES
-Les contrasenyes poden ser atacades de múltiples formes:
 
-Atacs de força bruta: provar combinacions aleatòries fins encertar la clau.
-Atacs per diccionari: emprar llistes de paraules comunes o conegudes per a l’usuari.
-Phishing: enganyar l’usuari perquè lliure la contrasenya en un lloc fals.
-Enginyeria social: manipular l’usuari perquè confesse les seues dades.
-Filtracions i robatoris de bases de dades: accedir a servidors de serveis poc segurs i obtindre’n les credencials en text pla o en hash feble.
+### [Atacs de força bruta](https://www.youtube.com/watch?v=WfsrmT72F5s): 
+Són atacs que consisteixen en provar totes les possibles combinacions fins trobar la correcta que dona accés. L'exemple més clàssic seria provar les 10000 combinacions numèriques d'un cadenat amb clau de quatre dígits, però és també aplicable a entorns digitals i és un tipus d'atac molt fàcil d'automatitzar. 
+
+### Atac de diccionari:
+Provem una llista predefinida de contrasenyes comunes i/o combinacions personalitzades, aprofitant la tendència dels usuaris a emprar contrasenyes febles i previsibles. En la següent imatge podem vore un programa que crea aquest tipus de diccionaris personalitzats:
+![Exemple de diccionari personalitzat](../Imatges/HTB_diccionari_personalitzat_contrasenyes.png)
+
+### Enginyeria social:
+La enginyeria social és el tipus d'atac a la privacitat segurament més antic. Els coneguem popularment com timos, estafes. Tots en coneguem els més emblemàtics com el de la estampeta o el príncep nigerià. Però gràcies a la digitalització de la societat, aquestes estafes han trobat noves formes d'enganyar a les victimes. Hui dia aquestes estafes ens arriben en forma de missatge SMS, mail o whatsapp i cada vegada són més sofisticades i alarmantment efectives. Pot arribar a ser molt difícil detectar que ens estan atacant. Un exemple actualment molt comú són els missatges SMS de Correus que arriben alertant-nos que ens ha arribat un paquet (quan no esperem cap comanda) i hem de visitar no se quin enllaç i donar certa informació... La enginyeria social bé mereix un apartat propi al blog. 
+
 
 ## BONES PRÀCTIQUES PER CREAR CONTRASENYES
 Fer servir contrasenyes llargues i complexes: Barrejar majúscules, minúscules, números i caràcters especials. Com més llarga i variada siga la contrasenya, millor.
@@ -54,4 +58,5 @@ Utilitzar gestors de contrasenyes: Així evitem haver de memoritzar-ho tot i red
 Actualitzar les contrasenyes periòdicament: Especialment les més sensibles (correu, banc, serveis crítics).
 Activar MFA sempre que siga possible: Combinar almenys dos factors d’autenticació.
 Evitar dades personals o paraules evidents: Noms propis, dates de naixement, seqüències senzilles (1234…), etc.
-
+### NO REPETIR CONTRASENYES
+Repetir contrasenyes és perillós. Si una d’elles es veu compromesa en un servei amb poca seguretat, qualsevol persona pot provar la mateixa contrasenya en altres comptes més valuosos (el correu, el banc, les xarxes socials...) provocant un efecte dominó, on la pèrdua d’un compte poc important pot acabar afectant els teus comptes més sensibles i la teua vida digital en general. Per tant, no repetir contrasenyes és vital.
