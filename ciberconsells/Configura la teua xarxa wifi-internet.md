@@ -50,8 +50,8 @@ Ara que ja sabem què és un router i tenim una idea de què fa el nostre "Route
 
 GLOSSARI:
 
-- Xarxa local:
-- VPN:
+- Xarxa local: quan parlem de "Xarxa Local" (LAN, Local Area Network) ens referim a un conjunt d'aparells connectats entre sí en un àrea espacial limitada, ja siga un pis, una habitació o una nau industrial. Amb aquesta definició, les connexions entre els aparells no tenen per què ser cablejades o "d'internet", poden ser connexions bluetooth, ones de radio, infrarojos... En el context d'internet simplement hem de comprendre que aquest conjunt de aparells connectats està limitat pel router. Tots aquells aparells connectats al router formen una xarxa local, la qual accedeix a internet mitjançant el router.
+- VPN (Virtual Private Network): Una Xarxa Privada Virtual és una tecnologia que permet comunicar-nos de forma més segura amb internet. Funciona de forma que redirigeix tot el nostre tràfic a través dun servidor extern (servidor VPN) amb el qual ens comuniquem 
 
 
 
