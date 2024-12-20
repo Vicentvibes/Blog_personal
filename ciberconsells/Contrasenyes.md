@@ -78,6 +78,9 @@ Abans de començar amb aquest xicotet taller d'exemples, ens queda un últim con
 Com podeu comprovar, no té per qué ser difícil crear contrasenyes complexes, llargues i fàcils de memoritzar. El millor consell que us puc donar és que creeu varies d'aquestes possibles contrasenyes i la que més vos agrade, siga ben forta i us siga agradable de recordar: EMPREU-LA PER CREAR EL VOSTRE COMPTE EN EL GESTOR DE CONTRASENYES! Aquesta serà la clau que obriga i guarde tots els panys!
 
 Comproveu com de fortes són les vostres contrasenyes en les següents pàgines web:
+
 [Kaspersky Password Checker](https://password.kaspersky.com/es/)
+
 [BitWarden Password Tester](https://bitwarden.com/password-strength/)
+
 [The Password Meter](https://passwordmeter.com/)
