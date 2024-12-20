@@ -8,3 +8,6 @@ HTB Bug Bounty Hunter: programació, avaluació, pràctiques, utilitat, nivell i
 
 Carpeta de fonts de informació: PODCASTS, canals de noticies, influencers...
 
+Entrevistes
+
+Competir i escenografia
