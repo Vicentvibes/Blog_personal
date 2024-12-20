@@ -21,10 +21,12 @@ Una MAC (Media Access Control) és un identificador únic de cada aparell electr
 
 Si teniu curiositat per aprofundir en la vostra comprensió sobre com funciona internet, vos recomane que busqueu informació sobre DNS, NAT, Paquets de dades i ports. Més endavant pot ser us podeu intentar atrevir amb el "model OSI", però aneu amb calma, no són lectures entretingudes ni senzilles.
 
-## Router
-Aquest aparell és un gran aliat de tot aquell qui disfruta d'internet. És segurament el dispositiu estrictament de la xarxa que ens és més conegut i proper. Tots el reconeguem dintre de casa o el lloc de treball i és el primer culpable quan tenim problemes de connexió. Vull, però, aclarar algunes coses sobre aquest aparell que coneguem com "router" o "ruter". A un nivell teòric, un router és el dispositiu encarregat de connectar una xarxa local a internet. Però, l'aparell que nosaltres coneguem con ruter fa més coses. I és que hui dia, per simplificar les instal·lacions d'internet a nivell domèstic, s'han integrat en el "ruter" els següents elements/dispositius:
-- Router: dispositiu encarregat re redireccionar els paquets de dades/missatges que s'envien i es reben en una xarxa local d'internet.
-
+## "Ruter" i router
+Aquest aparell és un gran aliat de tot aquell qui disfruta d'internet. És segurament el dispositiu estrictament de la xarxa que ens és més conegut i proper. Tots el reconeguem dintre de casa o el lloc de treball i és el primer culpable quan tenim problemes de connexió. Vull, però, aclarar algunes coses sobre aquest aparell que coneguem com "Router" o "Ruter". A un nivell teòric, un router és el dispositiu encarregat de connectar una xarxa local a internet. Però, l'aparell que nosaltres coneguem con ruter fa més coses. I és que hui dia, per simplificar les instal·lacions d'internet a nivell domèstic, s'han integrat en el "Ruter" els següents elements/dispositius:
+- Router: dispositiu encarregat de redireccionar els paquets de dades/missatges que s'envien i es reben en una xarxa local d'internet.
+- Switch: permet connecar diferents dispositius al router mitjançant cables (són les típiques connexions per a cables de xarxa que trobem en la part de darrere del "Ruter").
+- Punt d'accés Wi-Fi: proporciona connexió sense cable al router mitjançant ones electromagnètiques que coneguem com Wi-Fi.
+- Mòdem: dispositiu encarregat de convertir els paquets de dades/missatges enviats pels dispositius en senyals transmissibles (impulsos lumínics, impulsos elèctrics o impulsos electromagnètics) i viceversa. 
 
 
 
