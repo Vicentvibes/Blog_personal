@@ -45,7 +45,7 @@ Ara que ja sabem què és un router i tenim una idea de què fa el nostre "Route
 6.	La primera acció i més important és canviar la contrasenya i usuari del router, les credencials que heu emprat per entrar a la pàgina web on estem. No és gens acceptable deixar les credencials per defecte, qualsevol persona que es puga connectar al nostre wifi podria guanyar molot fàcilment el control sobre ell si no fem aquest canvi.
 7.	Comprovar que el mode de seguretat del nostre wifi és WPA2 o WPA3, no és acceptable que el mode de seguretat del nostre internet siga WEP, WPA, WPA/WPA2 mixed o Open. Qualsevol d'aquestos últims modes de seguretat estan desfasats o directament no protegeixen el nostre trànsit.
 
-## Bones pràctiques de seguretat en la seguretat del nostre router:
+## Bones pràctiques de seguretat del nostre router:
 
 •	Deshabilitar que la nostra SSID (nom de la nostra xarxa wifi) siga visible. Una interfície d'internet visible és una interfície molt més exposada a atacs i connexions no desitjades.
 
