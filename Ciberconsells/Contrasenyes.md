@@ -46,11 +46,11 @@ Fer servir contrasenyes llargues i complexes és molt important per aconseguir u
 
 Nombre de possibles combinacions = (Mida del conjunt de caràcters) ^ Mida de la contrasenya.
 
-Per un pin de quatre dígits (10 possibles caràcters, del 0 al 9): 10 ^ 4 = 10000 possibles combinacions
+- Per un pin de quatre dígits (10 possibles caràcters, del 0 al 9): 10 ^ 4 = 10000 possibles combinacions
 
-Per una contrasenya amb sols lletres minúscules (26 lletres) i de 6 caràcters (qwerty): 26 ^6 = 308.915.776 possibles combinacions
+- Per una contrasenya amb sols lletres minúscules (26 lletres) i de 6 caràcters (qwerty): 26 ^6 = 308.915.776 possibles combinacions
 
-Una contrasenya de majúscules, minúscules, dígits i caràcters especials (94 possibles caràcters) de 10 caràcters : 94 ^10 = 53.861.511.400.000.000.000, més de 53 trilions de combinacions.
+- Una contrasenya de majúscules, minúscules, dígits i caràcters especials (94 possibles caràcters) de 10 caràcters : 94 ^10 = 53.861.511.400.000.000.000, més de 53 trilions de combinacions.
 
 Si ens fixem en la fórmula plantejada, és molt important emprar tots els caràcters disponibles (A-Z, a-z, 0-9, #@~€¬&?¿+*^[]{}-;:etc...), però és inclús encara més important la seua longitud. Per tant, si, la mida importa moltíssim a l'hora de crear les nostres contrasenyes. Però no vos preocupeu, més endavant vorem tècniques per crear contrasenyes llargues, complexes i fàcils de recordar. 
 
