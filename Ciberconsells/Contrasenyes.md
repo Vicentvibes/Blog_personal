@@ -47,7 +47,9 @@ Fer servir contrasenyes llargues i complexes és molt important per aconseguir u
 Nombre de possibles combinacions = (Mida del conjunt de caràcters) ^ Mida de la contrasenya.
 
 Per un pin de quatre dígits (10 possibles caràcters, del 0 al 9): 10 ^ 4 = 10000 possibles combinacions
+
 Per una contrasenya amb sols lletres minúscules (26 lletres) i de 6 caràcters (qwerty): 26 ^6 = 308.915.776 possibles combinacions
+
 Una contrasenya de majúscules, minúscules, dígits i caràcters especials (94 possibles caràcters) de 10 caràcters : 94 ^10 = 53.861.511.400.000.000.000, més de 53 trilions de combinacions.
 
 Si ens fixem en la fórmula plantejada, és molt important emprar tots els caràcters disponibles (A-Z, a-z, 0-9, #@~€¬&?¿+*^[]{}-;:etc...), però és inclús encara més important la seua longitud. Per tant, si, la mida importa moltíssim a l'hora de crear les nostres contrasenyes. Però no vos preocupeu, més endavant vorem tècniques per crear contrasenyes llargues, complexes i fàcils de recordar. 
@@ -63,7 +65,7 @@ De la mateixa manera que no és recomanable tindre una mateixa clau pel garatge,
 ### Utilitza els gestors de contrassenyes:
 Tots aquestos problemes que hem descrit són fàcilment resolts emprant un gestor de contrasenyes. Aquest pot fàcilment crear i recordar contrasenyes complexes, llargues i úniques per a cada compte. A més, podem emprar aquest gestor de contrasenyes en qualsevol dispositiu. 
 
-### Activar MFA
+### Activar MFA:
 Sempre que siga possible és recomanable emprar la Autenticació Multifactor. D'aquesta manera si alguna contrasenya està compromesa, qualsevol atacant tindrà que redoblar esforços per obtindre l'altra part de la autenticació. És com si per atracar-nos, algú tinguera que assaltar a la vegada a dos persones que es troben en dos ciutats diferents.
 
 ## TALLER DE CONTRASENYES:
